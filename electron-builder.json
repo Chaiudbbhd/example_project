@@ -1,0 +1,19 @@
+{
+  "appId": "com.lpk.notionmanager",
+  "productName": "LPK Notion Manager",
+  "directories": {
+    "output": "dist-electron"
+  },
+  "files": [
+    "dist/**/*",
+    "main.js",
+    "preload.js",
+    "database/**/*",
+    "package.json"
+  ],
+  "asar": true,
+  "mac": {
+    "target": "dmg",
+    "category": "public.app-category.productivity"
+  }
+}
